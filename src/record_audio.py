@@ -19,7 +19,7 @@ def record_audio(note_name):
     audio = np.squeeze(audio)
     
     # Save as WAV file
-    save_path = f"../data/raw/notes/{note_name}.wav"
+    save_path = f"/Users/pranav/Desktop/portfolio/musictutor/data/raw/notes/{note_name}.wav"
     wav.write(save_path, SAMPLE_RATE, audio)
     
     print(f"Saved: {save_path}")
