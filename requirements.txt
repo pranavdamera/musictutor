@@ -1,0 +1,8 @@
+tensorflow
+librosa
+numpy
+matplotlib
+scipy
+pydub
+torch
+torchaudio
